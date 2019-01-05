@@ -1,6 +1,6 @@
 <?php
 
-function get302($url)
+function url_http_code($url)
 {
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
