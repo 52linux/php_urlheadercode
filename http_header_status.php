@@ -1,6 +1,6 @@
 <?php
 
-function url_http_code($url)
+function http_status_code($url)
 {
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
